@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
 
-greenLower = np.array([169, 100, 100])
-greenUpper = np.array([189, 255, 255])	
+redLower = np.array([169, 100, 100])
+redUpper = np.array([189, 255, 255])	
 
 cam=cv2.VideoCapture(0)
 
